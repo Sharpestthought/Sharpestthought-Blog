@@ -5,9 +5,6 @@ categories = ["shortform"]
 draft = false
 +++
 
-The sharpest thought cuts closest to the truth
-
-
 ## Temporary and Universal Challenges {#temporary-and-universal-challenges}
 
 
