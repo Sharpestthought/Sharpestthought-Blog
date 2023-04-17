@@ -1,18 +1,17 @@
-<a id="orgeaa6b27"></a>
-
-# SharpestThought Blog
++++
+title = "SharpestThought Blog"
+tags = ["Philosophy"]
+categories = ["shortform"]
+draft = false
++++
 
 The sharpest thought cuts closest to the truth
 
 
-<a id="orgd769216"></a>
-
-## Temporary and Universal Challenges
+## Temporary and Universal Challenges {#temporary-and-universal-challenges}
 
 
-<a id="org1e7432c"></a>
-
-### Of ancient wars and modern troubles
+### Of ancient wars and modern troubles {#of-ancient-wars-and-modern-troubles}
 
 The Romans and the Cartaginians were quite unhappy with one another for a long time. [Cato the Censor](https://en.wikiquote.org/wiki/Cato_the_Elder) certainly seemed to think so. Yet Carthage was a temporary problem. It was settled rather thoroughly by the Romans in 146 BC. Carthage, an existential problem that nearly led to the destruction of Rome, had been surmounted. The Republic soon moved on to worry about other matters.
 
@@ -23,16 +22,12 @@ Rather like Carthage was to the Romans, these issues truly are existential to us
 In that sense both Climate Change and Carthage are temporary problems. There was a time they did not bother us the least bit. There will be a time when they will bother us no more.
 
 
-<a id="orgcbc469b"></a>
+### Universal problems {#universal-problems}
 
-### Universal problems
-
-What then are timeless (or universal) problems? The problems that plague all human minds equally, regardless of circumstance. Conundrums like how to be a good person in a complex and (at least mildly) hostile universe. These are problems that, when solved, don't go away but rather return in more overpowering or sophisticated ways to best us. Should we through deep reserves of experience and wisdom conquer them in our lifetime, our children will be equally bedevilled by them in their time. 
+What then are timeless (or universal) problems? The problems that plague all human minds equally, regardless of circumstance. Conundrums like how to be a good person in a complex and (at least mildly) hostile universe. These are problems that, when solved, don't go away but rather return in more overpowering or sophisticated ways to best us. Should we through deep reserves of experience and wisdom conquer them in our lifetime, our children will be equally bedevilled by them in their time.
 
 
-<a id="org714a2fc"></a>
-
-### Render unto Caesar
+### Render unto Caesar {#render-unto-caesar}
 
 We tend to view the people who overcome temporaty problems as heroes. Famous scientists (Curie), generals (Alexander), and statespeople (Churchill) are celebrated and commemorated long after their death. We study their times, strife and achievements as templates for making our own way in the world. Even though we often
 contend with slightly more manageable problems ourselves, they serve as examplars of courage.
@@ -40,9 +35,7 @@ contend with slightly more manageable problems ourselves, they serve as examplar
 People who sucessfully overcome universal problems we see in a different light altogether. When the meaning of our existence is explicated by someone who sees through the veil of foibles that exists within our minds, we tend to revere them, not as heroes, but as holiness. Saints and prophets are our examplars of how to be a human mind in a mortal body, to be a good person in a hostile world, how to treat each other right and how to find meaning in events that make us suffer.
 
 
-<a id="orgf9814b3"></a>
-
-### The Mirror
+### The Mirror {#the-mirror}
 
 It will be interesting to see how long it takes our artifical
 intelligences to find out the difference between temporary and
@@ -52,4 +45,3 @@ sort term is help with the temporary problems. If AI truly becomes an
 independent thinking entity, it will have to contend with the same
 universal issues we do. It will be interesting to see whaty it comes
 up with. Will it be a hero or a saint?
-

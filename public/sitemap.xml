@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sharpestthought.github.io/Sharpestthought-Blog/20230417200049-blog/</loc>
-    <priority>0</priority>
-  </url><url>
     <loc>https://sharpestthought.github.io/Sharpestthought-Blog/categories/</loc>
   </url><url>
+    <loc>https://sharpestthought.github.io/Sharpestthought-Blog/tags/philosophy/</loc>
+  </url><url>
+    <loc>https://sharpestthought.github.io/Sharpestthought-Blog/posts/</loc>
+  </url><url>
     <loc>https://sharpestthought.github.io/Sharpestthought-Blog/</loc>
+  </url><url>
+    <loc>https://sharpestthought.github.io/Sharpestthought-Blog/posts/temporary-and-universal-challenges-for-ai/</loc>
+  </url><url>
+    <loc>https://sharpestthought.github.io/Sharpestthought-Blog/categories/shortform/</loc>
   </url><url>
     <loc>https://sharpestthought.github.io/Sharpestthought-Blog/tags/</loc>
   </url>
