@@ -3,13 +3,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"><title>Categories | SharpestThought Blog</title>
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"><meta name="msapplication-TileColor" content="#1793d0">
+  <meta name="theme-color" content="#1793d0"><title>Categories | SharpestThought Blog</title>
   <meta property="og:title" content="Categories - SharpestThought Blog">
   <meta property="og:type" content="article">
   
   
-  <meta name="keywords" content="">
-  <meta name="description" content="Categories">
+  <meta name="keywords" content="HTML, hugo, CSS">
+  <meta name="description" content="Categories"><meta name="author" content="">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
@@ -24,6 +25,8 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
   <link rel="stylesheet" type="text/css" href="/Sharpestthought-Blog/css/hulga.min.css">
+  <link rel="stylesheet" type="text/css" href="/Sharpestthought-Blog/css/hulga-dark.min.css" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="/manifest.json">
 </head><body>
   <div id="main">
 <section class="hero is-primary shadow-hero ">
@@ -43,6 +46,16 @@
     <div class="navbar-menu" id="navMenu">
       <div class="navbar-end">
         
+        <a class="navbar-item" href="/Sharpestthought-Blog/" title="index">Home</a>
+        
+        <a class="navbar-item" href="/Sharpestthought-Blog/archives/" title="archives">Archive</a>
+        
+        <a class="navbar-item" href="/Sharpestthought-Blog/about/" title="about">About</a>
+        
+        <a class="navbar-item" href="/Sharpestthought-Blog/tags/" title="tags">Tags</a>
+        
+        <a class="navbar-item" href="/Sharpestthought-Blog/categories/" title="categories">Categories</a>
+        
       </div>
     </div>
   </div>
@@ -53,6 +66,10 @@
       <h1 class="title">
         SharpestThought Blog
       </h1>
+      
+      <h2 class="subtitle">
+        Innovation, Productivity and Leadership
+      </h2>
       
     </div>
   </div>
@@ -95,16 +112,22 @@
   </div><footer class="footer">
   <div class="content has-text-centered">
     <p>Powered by <a href="https://gohugo.io">Hugo</a>. Theme <a href="https://www.github.com/wlh320/hugo-theme-hulga">Hulga</a></p>
-    <p>
-    
+    <p>Copyright © 2023 Paul Kunneman. All rights reserved.
     </p>
   </div>
 </footer>
 
 
+
+<script src="https://sharpestthought.github.io/Sharpestthought-Blog/js/pwa.min.js"></script>
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script><script>
 addBackToTop({
   diameter: 42,
+
+  backgroundColor: "#1793d0",
 
   innerHTML: '<svg viewBox="0 0 24 24"><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/></svg>',
   textColor: '#fff'
