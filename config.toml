@@ -64,16 +64,16 @@ theme = "hulga"
     name = "Home"
     url = "/"
     weight = 1
-  [[menu.main]]
-    identifier = "archives"
-    name = "Archive"
-    url = "/archives/"
-    weight = 2
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 3
+#  [[menu.main]]
+#    identifier = "archives"
+#    name = "Archive"
+#    url = "/archives/"
+#    weight = 2
+#  [[menu.main]]
+#    identifier = "about"
+#    name = "About"
+#    url = "/about/"
+#    weight = 3
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
