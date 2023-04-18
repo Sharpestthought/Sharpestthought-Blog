@@ -1,18 +1,44 @@
 baseURL = "https://sharpestthought.github.io/Sharpestthought-Blog/"
 languageCode = "en-us"
-DefaultContentLanguage = "en-us"
-title = "SharpestThought Blog"
-paginate = 10
-theme = "hulga"
+
+# Add it only if you keep the theme in the `themes` directory.
+# Remove it if you use the theme as a remote Hugo Module.
+# theme = "terminal"
+paginate = 5
+theme = "terminal"
 
 [params]
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "blue"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = false
+
+  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
+  # then the file will be used as a cover automatically.
+  # With this option you don't have to put the `cover` param in a front-matter.
+  autoCover = true
+
+  # set post to show the last updated
+  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+  showLastUpdated = false
+
   # show in HTML meta tag
   author = "Paul Kunneman"
-  keywords = "HTML, hugo, CSS"
   description = "The Sharpest Thought cuts closest to the truth"
-
-  # change bulma's primary color
-  primaryColor = "#1793d0"
 
   # subtitle on homepage
   subtitle = "Innovation, Productivity and Leadership"
@@ -20,67 +46,71 @@ theme = "hulga"
   # copyright text on footer
   copyright = "Copyright © 2023 Paul Kunneman. All rights reserved."
 
-  # enable katex rendering on every post page, default false
-  math = false
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = "favicon.ico"
 
-  # enable postcss, mainly for css purge (129kB->20kB->4.8kB gzipped, but this makes build slower), default false
-  # postcss = true
+  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+  # updatedDatePrefix = "Updated"
 
-  # enable showing content summary below post title in home page, default false
-  showSummary = true
+  # set all headings to their default size (depending on browser settings)
+  # oneHeadingSize = true # default
 
-  # set paginate on taxonomy term page (tags or categories), default 10
-  termPaginate = 3
+  # whether to show a page's estimated reading time
+  # readingTime = false # default
 
-  # enable toc on every post page, default false
-  toc = true
+  # whether to show a table of contents
+  # can be overridden in a page's front-matter
+  # Toc = false # default
 
-  # enable TOC auto collapse, default false
-  autoCollapseToc = true
+  # set title for the table of contents
+  # can be overridden in a page's front-matter
+  # TocTitle = "Table of Contents" # default
 
-  # enable prefers-color-scheme:dark, default false
-  darkMedia = true
 
-  # enable hero section's is-bold effect, default false
-  heroBold = false
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+  # do not include @
+  creator = "SharpestThought"
+  site = "https://sharpestthought.github.io/Sharpestthought-Blog/"
 
-  # enable hero section that looks like steam deck's home page, default false
-  heroSteamDeck = false
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "SharpestThought Blog"
+    subtitle = "Innovation, Productivity, Leadership"
+    owner = "Paul Kunneman"
+    keywords = "Innovation, Productivity, Leadership"
+    copyright = "Paul Kunneman"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+    minuteReadingTime = "min read"
+    words = "words"
 
-  # enable PWA, prepare your icons and DON'T forget to modify manifest.json, default false
-  pwa = true
+    [languages.en.params.logo]
+      logoText = "Terminal"
+      logoHomeLink = "/"
 
-  # disable jsdelivr cdn, default false
-  noCDN = false
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
 
-# to enable different hightlight themes in light/dark mode 
- [markup]
-   [markup.highlight]
-   noClasses = false
-
-[menu]
-  [[menu.main]]
-    identifier = "index"
-    name = "Home"
-    url = "/"
-    weight = 1
-#  [[menu.main]]
-#    identifier = "archives"
-#    name = "Archive"
-#    url = "/archives/"
-#    weight = 2
-#  [[menu.main]]
-#    identifier = "about"
-#    name = "About"
-#    url = "/about/"
-#    weight = 3
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 4
-  [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    url = "/categories/"
-    weight = 5
+[module]
+  # In case you would like to make changes to the theme and keep it locally in you repository,
+  # uncomment the line below (and correct the local path if necessary).
+  # --
+  # replacements = "github.com/panr/hugo-theme-terminal -> themes/terminal"
+[[module.imports]]
+ # path = 'github.com/panr/hugo-theme-terminal'
+  
