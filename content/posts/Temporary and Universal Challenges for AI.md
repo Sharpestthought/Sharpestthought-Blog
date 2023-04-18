@@ -1,6 +1,5 @@
 +++
 title = "Temporary and Universal Challenges for AI"
-tags = ["Philosophy"]
 draft = false
 +++
 
